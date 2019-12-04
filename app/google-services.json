@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "702491544086",
+    "firebase_url": "https://disciplina-android.firebaseio.com",
+    "project_id": "disciplina-android",
+    "storage_bucket": "disciplina-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702491544086:android:27aed494d136334cdd8337",
+        "android_client_info": {
+          "package_name": "com.jaimerson.reposicao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702491544086-h4t9m42vf1ui8v03rd61v9ppsr6bu7sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf9UQ_gzcKPnoFhR8bSWA9kDIo6IUkXoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702491544086-h4t9m42vf1ui8v03rd61v9ppsr6bu7sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702491544086:android:6e00c0809d0debaadd8337",
+        "android_client_info": {
+          "package_name": "com.jaimerson.thecyrpt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702491544086-h4t9m42vf1ui8v03rd61v9ppsr6bu7sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf9UQ_gzcKPnoFhR8bSWA9kDIo6IUkXoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702491544086-h4t9m42vf1ui8v03rd61v9ppsr6bu7sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
