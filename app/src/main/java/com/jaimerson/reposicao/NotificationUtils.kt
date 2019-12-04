@@ -45,6 +45,7 @@ object NotificationUtils {
         checkVersionAndCreateChannel(context)
 
         var notificationBuilder = NotificationCompat.Builder(context, CHANNEL_ID)
+            .setSmallIcon(R.drawable.common_google_signin_btn_text_dark)
             .setContentTitle(title)
             .setContentText(text)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)

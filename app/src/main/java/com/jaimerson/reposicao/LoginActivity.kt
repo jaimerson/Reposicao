@@ -30,9 +30,10 @@ class LoginActivity : AppCompatActivity() {
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if(task.isSuccessful){
+                        NotificationUtils.notificationSimple(this@LoginActivity, "User created", "The user has been created")
                         startActivity(Intent(this, MainActivity::class.java))
                     }else{
-                        Toast.makeText(this, "Falha no engano", Toast.LENGTH_SHORT)
+                        Toast.makeText(this@LoginActivity, "Falha no engano", Toast.LENGTH_SHORT).show()
                     }
                 }
         }
@@ -46,7 +47,7 @@ class LoginActivity : AppCompatActivity() {
                     if(task.isSuccessful){
                         startActivity(Intent(this, MainActivity::class.java))
                     }else{
-                        Toast.makeText(this, "Credenciais inválidas", Toast.LENGTH_SHORT)
+                        Toast.makeText(this, "Credenciais inválidas", Toast.LENGTH_SHORT).show()
                     }
                 }
         }
